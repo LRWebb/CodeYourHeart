@@ -1,4 +1,7 @@
+"""Prompt from here: http://www.superpython.party/03/functions.html"""
+
 """Take inputs from the user and add them together."""
+
 number1 = float(input("What is the first number you would like to add? "))
 number2 = float(input("What is the second number you would like to add? "))
 

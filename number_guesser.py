@@ -1,4 +1,7 @@
-""" Guess the Number
+"""Prompt from here: http://www.superpython.party/03/exercises.html"""
+
+"""
+Guess the Number
 Write a program number_guesser.py that does the following:
 
 Sets a random secret number from 1-14
@@ -10,13 +13,30 @@ Prints “Out of tries!” after the third incorrct guess
 
 import random
 
-random_number = random.randint(2, 999)
+random_number = random.randint(1, 14)
 
-print ("I've picked a number between 1 and 1000- can you guess it?")
-print ("What is your guess? Enter an integer between 1 and 1000 and let's see if you're right!")
+print ("I've picked a number between 1 and 14- can you guess it?")
+guess = float(input("What is your guess? Enter an integer between 1 and 14 and let's see if you're right! "))
 
-input
-
-if input = random_number
+if guess == random_number:
     print ("You're right! Good job!!")
-    else print ("Hm, not quite- you can try again though- ")
+else:
+    if guess > random_number:
+        print ("Hm, not quite, the number is actually lower than that!- you can try again- ")
+        guess = float(input("What is your second guess? You have three tries total. Enter an integer between 1 and 14 and let's see if you're right! "))
+    else:
+        print ("Hm, not quite, the number is actually higher than that!- you can try again- ")
+        guess = float(input("What is your second guess? You have three tries total. Enter an integer between 1 and 14 and let's see if you're right! "))
+if guess == random_number:
+    print ("You're right! Good job!!")
+else:
+    if guess > random_number:
+        print ("Hm, not quite, the number is actually lower than that!- you can try again- ")
+        guess = float(input("What is your third and final guess? You have three tries total. Enter an integer between 1 and 14 and let's see if you're right! "))
+    else:
+        print ("Hm, not quite, the number is actually higher than that!- you can try again- ")
+        guess = float(input("What is your third and final guess? You have three tries total. Enter an integer between 1 and 14 and let's see if you're right! "))
+if guess == random_number:
+    print ("You're right! Good job!!")
+else:
+    print ("Out of tries! " + str(guess) + " is not a match and that's your third and final guess- better luck next time!")
