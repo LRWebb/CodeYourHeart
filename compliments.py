@@ -1,6 +1,8 @@
-"""Prompt from here: http://www.superpython.party/03/exercises.html"""
+""" Prompt from here: http://www.superpython.party/03/exercises.html """
 
-"""Gives the user a random compliment."""
+"""
+Edit compliments.py so it prints out a random compliment from the variable compliments.
+"""
 
 import random
 
@@ -9,5 +11,11 @@ import random
 compliments = [
     "You look very nice today.",
     "You're better than sliced ham.",
-    "I've always thought you were special",
+    "I've always thought you were super!",
+    "You look like magic!",
+    "You're doing amazing, sweetie",
+    "You care about people and it shows- thank you :)",
+    "You are doing incredible! Keep it up!"
 ]
+
+print (random.choice(compliments))
