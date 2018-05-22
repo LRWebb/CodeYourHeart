@@ -13,13 +13,7 @@ Make sure you check for both upper- and lower-case letters
 name = input("What's your name, friend? ")
 
 def snobbygreeting():
-    if "t" in name:
-        print(f"Hi there {name}!")
-    if "T" in name:
-        print(f"Hi there {name}!")
-    if "m" in name:
-        print(f"Hi there {name}!")
-    if "M" in name:
+    if "t" in name or "T" in name or "m" in name or "M" in name:
         print(f"Hi there {name}!")
     else:
         print("Oh...... hi.")
