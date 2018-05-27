@@ -23,5 +23,5 @@ The full tutorial and a link to the more-blank files (so you can do it yourself)
 | [Exercise 14: Guest List](event.py)  | Lists and Loops | :heavy_check_mark:
 | [Exercise 15: Lazy Chef Sandwich Generator](lazy_chef.py)  | Lists and Loops | :heavy_check_mark:
 | [Exercise 16: Virtual Friend](my_friend.py)  | Lists and Loops | :heavy_check_mark:
-| [Exercise 17: Better Lazy Chef](lazy_chef.py)  | Lists and Loops | :memo:
+| [Exercise 17: Better Lazy Chef](lazy_chef.py)  | Lists and Loops | :heavy_check_mark:
 | [Exercise 18: Chore Chooser](chore_chooser.py)  | Lists and Loops | :memo:
