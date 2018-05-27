@@ -8,7 +8,7 @@ waiting some time, then saying “Breath out”, then repeat. It
 should do this for 2 minutes (13 total breaths, each with an in and an out).
 """
 
-"""My changes- I shortened the number of repetitions, and made the exhale longer than the inhale"""
+"""Some of my changes- I shortened the number of repetitions, and made the exhale longer than the inhale"""
 
 def meditate ():
     print ("breathe in, you numbskull")
