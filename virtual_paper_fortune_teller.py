@@ -8,7 +8,10 @@ Ask for a color chosen from 4 colors
 Ask for a number chosen from a set of 4 numbers depending on which color was chosen
 Repeat step 2 as long as you’d like
 Finally, have the user choose from a set of 4 numbers and reveal a fortune related to that number
+"""
 
+"""
+Mostly works, but the selecting is not quite what a paper fortune teller would do. Need to look at selecting steps again.
 """
 
 import random
